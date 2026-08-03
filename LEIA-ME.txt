@@ -1,0 +1,37 @@
+PAYOUT ASSESSORIA — VERCEL
+
+PUBLICAÇÃO MAIS FÁCIL
+
+1. Acesse https://vercel.com/
+2. Entre usando sua conta do GitHub.
+3. Crie um repositório no GitHub e envie todo o conteúdo desta pasta.
+4. Na Vercel, clique em Add New > Project.
+5. Importe o repositório.
+6. Em Framework Preset, selecione Other.
+7. Deixe Build Command e Output Directory em branco.
+8. Clique em Deploy.
+
+FORMULÁRIO
+
+Para receber as mensagens por e-mail, abra o projeto na Vercel e acesse:
+
+Settings > Environment Variables
+
+Crie:
+
+RESEND_API_KEY = sua chave da Resend
+CONTACT_EMAIL = e-mail que receberá as mensagens
+FROM_EMAIL = remetente validado na Resend (opcional)
+
+Depois faça um novo deployment.
+
+OBSERVAÇÕES
+
+- O endereço padrão será parecido com:
+  https://payout-assessoria.vercel.app
+
+- Se a Vercel gerar outro nome, altere as URLs dentro dos HTMLs,
+  principalmente canonical e og:image.
+
+- Antes de divulgar, revise a Política de Privacidade e informe
+  um e-mail de contato responsável.
